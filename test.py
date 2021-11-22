@@ -2,7 +2,8 @@ import requests
 
 
 def main():
-    url = 'http://127.0.0.1:8000/car-rec/'
+    # url = 'http://127.0.0.1:8000/car-rec/'
+    url = "https://www.elaidata.com/"
     files = {'image': open('IMG_2503.JPG', 'rb')}
     response = requests.post(url, files=files)
 
